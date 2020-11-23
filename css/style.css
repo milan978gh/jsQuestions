@@ -220,9 +220,9 @@ Questions
 .question-text p {
   margin-bottom: 0;
 }
-.question-text .show-text {
+.show-text .question-text {
   display: block;
 }
-.show-text img{
+.show-text img {
   transform: rotate(45deg);
 }

@@ -205,28 +205,24 @@ Questions
   color: var(--clr-grey-1);
 }
 .question-btn {
-  font-size: 1.5rem;
   background: transparent;
-  border-color: transparent;
+  border: none;
   cursor: pointer;
-  color: var(--clr-gold);
-  transition: var(--transition);
   outline: none;
+  transition: var(--transition);
 }
 .question-text {
   padding: 1rem 0 1.5rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
+  /* hide text */
+  display: none;
 }
 .question-text p {
   margin-bottom: 0;
 }
-/* hide text */
-.question-text {
-  display: none;
-}
-.show-text .question-text {
+.question-text .show-text {
   display: block;
 }
-.show-text .plus-icon img{
+.show-text img{
   transform: rotate(45deg);
 }

@@ -13,8 +13,3 @@ questions.forEach((question) => {
     question.classList.toggle('show-text');
   });
 });
-
-
-
-
-
